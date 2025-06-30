@@ -1,0 +1,35 @@
+.header {
+  background-color: #fff8f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #c2a277;
+}
+
+.logo {
+  font-family: 'Cursive', sans-serif;
+  font-size: 2rem;
+  color: #5a3e1b;
+  margin: 0;
+}
+
+.nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7a5c3e;
+  font-size: 1rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.nav a:hover {
+  background-color: #e8d3b9;
+}
