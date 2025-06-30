@@ -1,0 +1,33 @@
+/* index.css - Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cursive', sans-serif;
+  background-color: #fff8e7; /* soft cream */
+  color: #4b2e2e; /* deep brown for a cozy tone */
+}
+
+button {
+  background-color: #8b5c3c; /* rustic brown */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cursive', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a76b47;
+}
+
+.navbar {
+  background-color: #fef3e2;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #d2b48
