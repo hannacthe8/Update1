@@ -1,0 +1,64 @@
+/* Overall Page Setup */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf9f4;
+  font-family: 'Georgia', serif;
+  color: #3e2c1c;
+}
+
+/* Sticky Header */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #8b5e3c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for menu items */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #fff8f0;
+  border: 2px solid #e0d4c0;
+  border-radius: 12px;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Food image */
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Brown button for name and price */
+.menu-item button {
+  margin-top: 10px;
+  background-color: #8b5e3c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Description in cursive */
+.description {
+  margin-top: 10px;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+}
